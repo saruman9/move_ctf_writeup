@@ -1,0 +1,11 @@
+[package]
+name = "flash_sol"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework", rev = "devnet" }
+flash = { local = "../challenges/movectf-4" }
+
+[addresses]
+flash_sol = "0x0"
+sui = "0000000000000000000000000000000000000002"

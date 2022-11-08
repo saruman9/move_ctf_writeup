@@ -1,0 +1,12 @@
+[submodule "challenges/movectf-1"]
+	path = challenges/movectf-1
+	url = https://github.com/movebit/movectf-1
+[submodule "challenges/movectf-6"]
+	path = challenges/movectf-6
+	url = https://github.com/movebit/movectf-6
+[submodule "challenges/movectf-4"]
+	path = challenges/movectf-4
+	url = https://github.com/movebit/movectf-4
+[submodule "challenges/movectf-5"]
+	path = challenges/movectf-5
+	url = https://github.com/movebit/movectf-5
