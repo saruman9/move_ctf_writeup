@@ -1,0 +1,11 @@
+[package]
+name = "move_lock"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework", rev = "devnet" }
+# Sui = { local = "/Users/chris/src/sui/crates/sui-framework/"}
+
+[addresses]
+movectf = "0x0"
+sui =  "0000000000000000000000000000000000000002"
