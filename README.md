@@ -6,7 +6,7 @@ Disclaimer: I write everything from memory, so there may be mistakes in both the
 
 ## `checkin` (100)
 
-- Source: [movectf-1](https://github.com/movebit/movectf-1)
+- Source: [movectf-1](https://github.com/movebit/movectf-1), [local](./challenges/movectf-1)
 - Deploy:
 
 ```shell
@@ -37,7 +37,7 @@ sui client call --gas-budget 10000 --package $PACKAGE_ADDRESS --module "checkin"
 
 ## `simple game` (400)
 
-- Source: [movectf-6](https://github.com/movebit/movectf-6)
+- Source: [movectf-6](https://github.com/movebit/movectf-6), [local](./challenges/movectf-6)
 - Deploy:
 
 ```shell
@@ -116,7 +116,7 @@ $ cargo run --example hero -- -p $PACKAGE_ADDRESS -m inventory -f get_flag $TREA
 
 ## `flash loan` (200)
 
-- Source: [movectf-4](https://github.com/movebit/movectf-4)
+- Source: [movectf-4](https://github.com/movebit/movectf-4), [local](./challenges/movectf-4)
 - Deploy:
 
 ```shell
@@ -146,7 +146,7 @@ $ sui client call --json --gas-budget 10000 --package $SOLUTION_ADDRESS --module
 
 ## `move lock` (300)
 
-- Source: [movectf-5](https://github.com/movebit/movectf-5)
+- Source: [movectf-5](https://github.com/movebit/movectf-5), [local](./challenges/movectf-5)
 - Deploy:
 
 ```shell
